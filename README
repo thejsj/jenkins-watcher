@@ -1,0 +1,13 @@
+# Jenkins Watcher
+
+```
+WORKER_TIMEOUT=1000 WORKER_MIN_RETRY_DELAY=30000 WORKER_MAX_RETRY_DELAY=180000 node index.js  | bunyan
+```
+
+# TODO
+
+1. Add HTTP server to add jobs through HTTP API and check if job is being checked
+2. Chrome extension
+3. Check for duplicates (Redis + Hash)
+4. ENVs for stuff
+5. UI?

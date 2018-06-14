@@ -1,0 +1,20 @@
+{
+  "name": "jenkins-watcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "bunyan": "^1.8.12",
+    "error-cat": "^3.0.0",
+    "jenkins-api": "^0.3.1",
+    "joi": "^13.4.0",
+    "ponos": "^5.8.3",
+    "twilio": "^3.17.2"
+  }
+}
